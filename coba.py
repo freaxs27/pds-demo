@@ -1,7 +1,7 @@
 import streamlit as st 
 import pandas as pd
 
-data = pd.read_excel('data_wisata_bogor.xlsx')
+data = pd.read_excel('data_wisata_bogor.csv')
 
 df = pd.DataFrame(data)
 
